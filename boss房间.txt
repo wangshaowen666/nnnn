@@ -1,0 +1,22 @@
+{
+    id = 0, -- 房间的id，用来区分房间，房间列表使用
+    owerid = 0,
+    herolevel = 0,
+    name = "房间名",
+    password = "123456",
+    castle = 1,
+    memberid = 0,
+    time = skynet.time(),
+    isready = 0,
+    inroom_time = 0,
+    users = {
+	[1] = {
+	   userid = 1,
+	   name = “”,
+           role_id = 100001,
+           weiwang = 0,
+	   level = 1	
+	},
+	…
+    }
+}
